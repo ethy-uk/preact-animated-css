@@ -4,10 +4,6 @@
   "description": "Preact component to show or hide elements with animations using [Animated.css](https://daneden.github.io/animate.css/)",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "scripts": {
-    "compile": "babel -d lib/ src/ --no-comments",
-    "prepublish": "npm run compile"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/peterszombati/preact-animated-css.git"
