@@ -2,15 +2,12 @@
   "presets": [
     "es2015",
     "stage-0",
-    "react"
-  ],
-  "plugins": [
     [
-      "@babel/plugin-transform-react-jsx",
+      "react",
       {
         pragma: "h",
-        pragmaFrag: "Fragment"
-      }
-    ]
+        pragmaFrag: "Fragment",
+      },
+    ],
   ]
 }
