@@ -2,12 +2,6 @@
   "presets": [
     "es2015",
     "stage-0",
-    [
-      "react",
-      {
-        pragma: "h",
-        pragmaFrag: "Fragment",
-      },
-    ],
+    "react"
   ]
 }
